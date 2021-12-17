@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    color: white;
+    background-color: #232527;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 17px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(imagens/img-fundo.jpeg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cadastrar {
+    margin-left: 400px;
+    width: 100%;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+.apagar{
+
+    color: #FFFFFF;
+    text-decoration: underline;
+
+}
+
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: #232527;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 50px;
+    opacity: 1;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(143, 16, 248, 0.25), 0 10px 10px rgba(21, 4, 255, 0.22);
+}
+
+.container h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container .form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container .inputs input {
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.enviar {
+    border-radius: 25px;
+    border: 1px solid rgba(21, 4, 255, 0.371);
+    background-color: rgba(144, 16, 248, 0.316);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 80ms ease-in;
+    margin-top: 40px;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 1px;
+    color: #FFFFFF;
+    font-weight: bold;
+}

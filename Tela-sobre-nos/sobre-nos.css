@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.pagina1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-pagina1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -28%;
+    color: white;
+    font-size: 32px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    color: white;
+    background-color: #232527;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 17px;
+}
+
+.pagina2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.pagina2 .apresentacao {
+    width: 100%;
+    height: 100%;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #232527;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.apresentacao h2 {
+    width: 70%;
+    overflow: hidden;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+}
+
+.listas li {
+    margin-top: 15px;
+}
+
+.listas li a {
+    text-decoration: none;
+    color: white;
+}
+
+.listas li a:hover {
+    color: #2980b9;
+}
+
+.mapa {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 350px;
+}
+
+.img-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-right: 125px;
+}
+
+.img-icons a img {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
